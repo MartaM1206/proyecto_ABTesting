@@ -25,14 +25,19 @@ El dataset presenta las siguientes columnas:
     - numpy 
     - seaborn 
     - matplotlib
-    - 
+    - scipy
+    - statsmodels
+    
 
 Para más detalles puedes consultar el archivo requirements.txt
 
-📊 Resultados y Conclusiones
-      - Los hoteles de la competencia son más baratos y tienen mayor valoración que los hoteles de nuestra marca. Se debería analizar las causas de la baja valoración.
-      - Los días 4 y 6 de febrero se produjeron altos picos de demanda en las reservas, mientras que el día 8 fue el día de menor demanda. Dado que no hay demasiados datos temporales no se detecta relación entre días de la semana y demanda.
-
+📊 Resultados y Conclusiones  
+- Las hipótesis planteadas han sido:  
+    - $H0$: No hay diferencia en la tasa de retención en un día entre el modo de juego actual y el modo nuevo.   
+    - $H1$: La tasa de retención en 1 día es más alta en el modo nuevo.  
+- La representación de la tasa de retención media de ambos grupos, muestra que el grupo test tiene una retención promedio significativamente mayor.   
+     ![alt text](image.png)  
+- Se ha realizado un z-test y se ha obtenido un p-valor de 0.0, lo que unido al gráfico, permite descartar la hipótesis nula y afirmar que el modo de juego nuevo consigue una mayor tasa de retención en 1 día.
 
 🔄 Próximos Pasos
 
